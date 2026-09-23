@@ -1,6 +1,8 @@
 import Header from "./component/Header";
 import Hero from "./component/Hero";
 import BentoGrid from "./component/BentoGrid";
+import Codeshowcase from "./component/Codeshowcase";
+
 function App() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-between bg-[#090d16] text-slate-100 antialiased selection:bg-slate-200 selection:bg-indigo-500 selection:text-white">
@@ -8,6 +10,7 @@ function App() {
       <main>
         <Hero />
         <BentoGrid />
+        <Codeshowcase />
       </main>
     </div>
   );
