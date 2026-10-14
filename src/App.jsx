@@ -1,7 +1,7 @@
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import BentoGrid from "./components/BentoGrid";
-import CodeShowcase from "./components/CodeShowcase";
+import Codeshowcase from "./components/Codeshowcase";
 import SystemMetrics from "./components/SystemMetrics";
 import TechSpecGrid from "./components/TechSpecGrid";
 import PricingGrid from "./components/PricingGrid";
@@ -20,7 +20,7 @@ export default function App() {
         <BentoGrid />
 
         {/* Section 3: Deep Indigo Canvas with Grid Pattern Overlay (#0a0f24) */}
-        <CodeShowcase />
+        <Codeshowcase />
 
         {/* Section 4: Translucent Card Overlay (#111827 / 50) */}
         <SystemMetrics />
